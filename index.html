@@ -1,52 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">  
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-<title>Portfolio with Bootstrap</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-5.0.2-dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <title>Portfolio with Bootstrap</title>
+  </head>
+  <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-              <!-- <a class="navbar-brand " href="#">Welcome</a> -->
-              <a class="navbar-toggler" data-bs-toggle="collapse" aria-expanded="false" href="#" >Welcome</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav mx-auto">
-                  <a class="nav-link text-dark font-weight-bold"  href="#">Portfolio</a>
-                  <a class="nav-link text-dark font-weight-bold" href="#">About</a>
-                  <a class="nav-link text-dark font-weight-bold" href="#">Contact</a>
-                </div>
-              </div>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+          <!-- <a class="navbar-brand " href="#">Welcome</a> -->
+          <a
+            class="navbar-toggler"
+            data-bs-toggle="collapse"
+            aria-expanded="false"
+            href="#"
+            >Welcome</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav mx-auto">
+              <a class="nav-link text-dark font-weight-bold" href="#"
+                >Portfolio</a
+              >
+              <a class="nav-link text-dark font-weight-bold" href="#">About</a>
+              <a class="nav-link text-dark font-weight-bold" href="#"
+                >Contact</a
+              >
             </div>
-          </nav>
-    </header>
-    <div class="container mx-auto p-5" style="width:100% ; height:600px;">
-        <div class="container mx-auto text-center" style="width: 50%;">
-        <h1 style="color: #172b4d;">Hey there.I'm Rida</h1>
-          <h2 style="color: #36B37E;">I am a software developer</h2>
-          <p class="p-3" style="color: #172B4D;"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, 
-            don’t hestiate to contact me.</p>
-            
-                <ul class="list-inline " style="font-size: 24px;">
-                    <li  class="list-inline-item p-2"><a href="#"><span class="fa fa-angellist text-dark" style="color: #172B4D;"></span></a></li>
-                    <li  class="list-inline-item p-2"><a href="#"><span class="fa fa-medium text-dark" style="color: #172B4D;"></span></a></li>
-                    <li  class="list-inline-item p-2"><a href="#"><span class="fa fa-github text-dark" style="color: #172B4D;"></span></a></li>
-                    <li  class="list-inline-item p-2"><a href="#"><span class="fa fa-linkedin text-dark" style="color: #172B4D;"></span></a></li>
-                </ul>
-            
+          </div>
         </div>
-    </div>
+      </nav>
+    </header>
+    <section class="container mx-auto p-5" style="width: 100%; height: 600px">
+      <div class="container mx-auto text-center" style="width: 50%">
+        <h1 style="color: #172b4d">Hey there.I'm Rida</h1>
+        <h2 style="color: #36b37e">I am a software developer</h2>
+        <p class="p-3" style="color: #172b4d">
+          I can help you build a product , feature or website Look through some
+          of my work and experience! If you like what you see and have a project
+          you need coded, don’t hestiate to contact me.
+        </p>
+
+        <ul class="list-inline" style="font-size: 24px">
+          <li class="list-inline-item p-2">
+            <a href="#"
+              ><span
+                class="fa fa-angellist text-dark"
+                style="color: #172b4d"
+              ></span
+            ></a>
+          </li>
+          <li class="list-inline-item p-2">
+            <a href="#"
+              ><span
+                class="fa fa-medium text-dark"
+                style="color: #172b4d"
+              ></span
+            ></a>
+          </li>
+          <li class="list-inline-item p-2">
+            <a href="#"
+              ><span
+                class="fa fa-github text-dark"
+                style="color: #172b4d"
+              ></span
+            ></a>
+          </li>
+          <li class="list-inline-item p-2">
+            <a href="#"
+              ><span
+                class="fa fa-linkedin text-dark"
+                style="color: #172b4d"
+              ></span
+            ></a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="container">
+      <h2 class="text-center p-3">My Recent Works</h2>
+      <div class="row">
+        <div class="col-4">
+          <div class="card" style="width: 369px">
+            <div
+              class="card-img-top"
+              style="background-color: #e5e5e5; height: 252px"
+            ></div>
+            <div class="card-body text-center">
+              <h2 class="card-title">Multi-Post Stories Gain+Glory</h2>
+
+              <ul class="list-inline">
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  Ruby on rails
+                </li>
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  CSS
+                </li>
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  Javascript
+                </li>
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  HTML
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 369px">
+            <div
+              class="card-img-top"
+              style="background-color: #e5e5e5; height: 252px"
+            ></div>
+            <div class="card-body text-center">
+              <h2 class="card-title">Multi-Post Stories Gain+Glory</h2>
+
+              <ul class="list-inline">
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  Ruby on rails
+                </li>
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  CSS
+                </li>
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  Javascript
+                </li>
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  HTML
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-4">
+          <div class="card" style="width: 369px">
+            <div
+              class="card-img-top"
+              style="background-color: #e5e5e5; height: 252px"
+            ></div>
+            <div class="card-body text-center">
+              <h2 class="card-title">Multi-Post Stories Gain+Glory</h2>
+
+              <ul class="list-inline">
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  Ruby on rails
+                </li>
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  CSS
+                </li>
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  Javascript
+                </li>
+                <li
+                  class="list-inline-item badge text-dark p-2"
+                  style="background: #ebf0ee"
+                >
+                  HTML
+                </li>
+              </ul>
+              <a href="#" class="btn btn-success">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="./bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
-</body>
+  </body>
 </html>
